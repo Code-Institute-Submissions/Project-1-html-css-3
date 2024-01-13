@@ -1,0 +1,27 @@
+/*To override default styles*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General styles*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+header{
+    background-color: aqua;
+}
+/*Main*/
+main{
+    background-color: blueviolet;
+    flex: 1 0 auto;
+}
+/*Footer*/
+footer{
+    background-color: brown;
+}
