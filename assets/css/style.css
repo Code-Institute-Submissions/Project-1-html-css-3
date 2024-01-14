@@ -19,7 +19,16 @@ body{
 
 /*Header*/
 header{
-    background-color: aqua;
+    background-color: #efe1e6;
+    padding-left: 1em;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #212549;
+}
+
+h1{
+    color: #ae4671;
 }
 /*Main*/
 main{
