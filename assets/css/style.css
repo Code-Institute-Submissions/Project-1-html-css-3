@@ -36,6 +36,21 @@ h1{
     color: #ae4671;
     letter-spacing: 1px;
 }
+
+#navbar{
+    letter-spacing: 1px;
+    font-size: 110%;
+    list-style-type: none;
+}
+
+#navbar > li{
+    margin-bottom: 1em;
+}
+
+.active{
+    border-bottom: 1px solid #212549;
+}
+
 /*Main*/
 main{
     background-color: blueviolet;
