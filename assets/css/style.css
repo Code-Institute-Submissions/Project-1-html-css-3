@@ -20,11 +20,14 @@ body{
 /*Header*/
 header{
     background-color: #efe1e6;
-    padding-left: 1em;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #212549;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a{
@@ -50,6 +53,29 @@ h1{
 .active{
     border-bottom: 1px solid #212549;
 }
+
+/*Navbar style*/
+nav{
+    position: absolute;
+    background-color: #efe1e6;
+    width: 100%;
+    box-shadow: 0 2px 2px #212549;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+
 
 /*Main*/
 main{
