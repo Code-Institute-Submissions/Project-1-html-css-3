@@ -85,8 +85,9 @@ main{
 }
 /*Footer*/
 footer{
-    background-color: brown;
+    background-color: #dcfcff;
 }
+
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px){
