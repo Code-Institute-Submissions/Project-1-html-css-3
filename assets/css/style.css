@@ -82,10 +82,24 @@ nav{
 
 /*Main*/
 main{
-    background-color: blueviolet;
     flex: 1 0 auto;
     margin-top: 40px;
 }
+
+#start-section{
+    height: 600px;
+    width: 100%;
+    background: url("../images/first-vaccination.webp") no-repeat center center/cover;
+}
+
+#start-section h1{
+    background-color: rgba(33, 37, 73, 0.6);
+    color: #fffeff;
+    height: 600px;
+    width: 100%;
+    font-size: 50px;
+}
+
 /*Footer*/
 footer{
     background-color: #fffeff;
