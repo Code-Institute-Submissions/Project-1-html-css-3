@@ -125,9 +125,20 @@ section p{
 
 /*Footer*/
 footer{
-    background-color: #fffeff;
+    background-color: #212549;
 }
 
+footer h3{
+    color: #fffeff;
+    text-align: center;
+}
+
+footer p {
+    color: #fffeff;
+    text-align: center;
+}
+
+/*Social networks link*/
 #socials{
     text-align: center;
     padding: 20px 0;
@@ -146,24 +157,12 @@ footer{
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px){
     /*Header*/
-    nav{
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
     #navbar{
         display: flex;
     }
 
     #navbar > li{
         padding-left: 1rem;
-    }
-
-    .nav-toggle-label{
-        display: none;
     }
 
     #logo{
@@ -187,12 +186,45 @@ footer{
         font-size: 50px;
         padding-right: 10%;
     }
+
+    section img{
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 80%;
+        height: 400px;
+    }
 }
 
 /*Media query: laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
     /*header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background-color: #212549;
+        color: #fffeff;
+    }
+
+    .active {
+        border-bottom: 1px solid #fffeff;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
     #navbar a:hover{
-        border-bottom: 1px solid #212549;
+        border-bottom: 1px solid #fffeff;
+    }
+
+    /*Main content*/
+    section img{
+        height: 500px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
