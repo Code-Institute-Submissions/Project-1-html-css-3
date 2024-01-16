@@ -127,12 +127,14 @@ main{
     letter-spacing: 1px;
 }
 
-.style-section{
+#style-section div{
     background-color: #212549;
     margin: 10px 20px;
+    color: #fffeff;
 }
 
-.style-section h4{
+#style-section div h4{
+    background-color: #212549;
     color: #fffeff;
     padding: 10px 20px;
 }
@@ -166,6 +168,13 @@ footer p {
     font-size: 150%;
     padding: 5%;
     color: #fffeff;
+}
+
+/*Media query: landscape phones(576px and up)*/
+@media screen and (min-width: 576px) {
+    #style-section{
+        column-count: 2;
+    }
 }
 
 /*Media query: tablets and larger (768px and up)*/
@@ -245,6 +254,9 @@ footer p {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+    }
+    #style-section {
+        column-count: 2;
     }
 }
 
