@@ -19,7 +19,7 @@ body{
 
 /*Header*/
 header{
-    background-color: #fffeff;
+    background-color: #212549;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -36,7 +36,7 @@ header a{
 }
 
 #logo{
-    color: #212549;
+    color: #fffeff;
     letter-spacing: 1px;
 }
 
@@ -77,6 +77,7 @@ nav{
 
 .nav-toggle-label i{
     font-size: 150%;
+    color: #fffeff;
 }
 
 
@@ -105,9 +106,21 @@ main{
     padding-left: 10%;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+}
+
 section h2{
     background-color: #212549;
     color: #fffeff;
+    text-align: center;
+}
+
+section p{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20px;
 }
 
 /*Footer*/
@@ -121,12 +134,13 @@ footer{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #212549;
 }
 
 #socials i{
     font-size: 150%;
     padding: 5%;
-    color: #212549;
+    color: #fffeff;
 }
 
 /*Media query: tablets and larger (768px and up)*/
