@@ -127,6 +127,16 @@ main{
     letter-spacing: 1px;
 }
 
+.style-section{
+    background-color: #212549;
+    margin: 10px 20px;
+}
+
+.style-section h4{
+    color: #fffeff;
+    padding: 10px 20px;
+}
+
 /*Footer*/
 footer{
     background-color: #212549;
