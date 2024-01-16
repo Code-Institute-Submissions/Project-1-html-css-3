@@ -106,21 +106,25 @@ main{
     padding-left: 10%;
 }
 
-section{
+#main-section div{
     display: flex;
     flex-direction: column;
 }
 
-section h2{
+#main-section div h2{
     background-color: #212549;
     color: #fffeff;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-section p{
+#main-section div p{
     display: flex;
     flex-direction: column;
-    margin: 5px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 /*Footer*/
@@ -187,7 +191,7 @@ footer p {
         padding-right: 10%;
     }
 
-    section img{
+    #main-section div img{
         margin-left: 50px;
         margin-right: 50px;
         width: 80%;
@@ -221,10 +225,50 @@ footer p {
     }
 
     /*Main content*/
-    section img{
+    #main-section div p{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+
+    #main-section div img{
         height: 500px;
         width: 70%;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+/*Media query: large laptops and larger monitor (1440px and up)*/
+@media screen and (min-width: 1440px){
+    /*Header*/
+    #start-section h1{
+        text-align: center;
+        bottom: 30%;
+    }
+    /*Main Content*/
+    #main-section div h2{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+    #main-section div p {
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+    #main-section div img {
+        margin-left: 360px;
+        margin-right: 400px;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    #main-section div p {
+        margin-left: 600px;
+        margin-right: 600px;
+    }
+    #main-section div img {
+        margin-left: 475px;
+        margin-right: 400px;
+        width: 50%;
     }
 }
