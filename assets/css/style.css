@@ -105,6 +105,11 @@ main{
     padding-left: 10%;
 }
 
+section h2{
+    background-color: #212549;
+    color: #fffeff;
+}
+
 /*Footer*/
 footer{
     background-color: #fffeff;
