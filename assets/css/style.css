@@ -85,6 +85,8 @@ nav{
 main{
     flex: 1 0 auto;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 #start-section{
@@ -127,6 +129,7 @@ main{
     letter-spacing: 1px;
 }
 
+/*More-topics section*/
 #style-section div{
     background-color: #212549;
     margin: 10px 20px;
@@ -137,6 +140,32 @@ main{
     background-color: #212549;
     color: #fffeff;
     padding: 10px 20px;
+}
+
+/*Sign-up section*/
+#signup-form{
+    background-color: #212549;
+    margin: 20px 20px 0 20px;
+    color: #fffeff;
+    padding: 30px;
+}
+
+#signup-form h2{
+    margin-bottom: 20px;
+}
+
+.text-input{
+    padding: 3px 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#sign-in{
+    margin-top: 20px;
+    padding: 15px 32px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 /*Footer*/
@@ -172,9 +201,15 @@ footer p {
 
 /*Media query: landscape phones(576px and up)*/
 @media screen and (min-width: 576px) {
+    /*More-topics section*/
     #style-section{
         column-count: 2;
         column-gap: 0;
+    }
+
+    /*sign-up section*/
+    #signup-form {
+        margin: 20px 100px;
     }
 }
 
@@ -217,6 +252,15 @@ footer p {
         width: 80%;
         height: 400px;
     }
+
+    /*sign-up section*/
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 20%;
+        top: 125px;
+    }
+
 }
 
 /*Media query: laptops and larger (992px and up)*/
@@ -256,9 +300,36 @@ footer p {
         margin-left: auto;
         margin-right: auto;
     }
+
+    /*More-topics section*/
     #style-section {
         column-count: 3;
         column-gap: 0;
+    }
+
+    /*Sign-up section*/
+    #signup-section {
+        background-image: url("../images/signup-image.webp");
+        background-size: cover;
+        background-position: center;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 5%;
+        top: 100px;
+    }
+
+    .text-input:hover {
+        box-shadow: 0 5px 5px 0 rgba(144, 238, 144, 0.24);
+    }
+
+    #sign-in:hover {
+        box-shadow: 0 16px 16px 0 rgba(144, 238, 144, 0.24);
     }
 }
 
