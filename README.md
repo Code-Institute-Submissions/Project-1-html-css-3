@@ -5,7 +5,11 @@ Medical History website is for students aged 10 to 16 who wants to learn about t
 ![Screenshot of all the pages and responsiveness of the project](/docs/All-page-responsiveness.png)
 Visit the deployed site here : Medical History
 
+---
+
 ## User Experience - UX
+
+---
 
 ### Initial Discussion
 
@@ -19,6 +23,8 @@ Visit the deployed site here : Medical History
 - A way to contact Medical History.
 
 ### User Stories
+
+---
 
 #### Client Goals
 
@@ -39,8 +45,44 @@ Visit the deployed site here : Medical History
 #### Returning Visitor Goals
 
 - I want to be able to get notify when new topics are updated to the website.
-
+  
 #### Frequent Visitor Goals
 
 - I want to see and learn about more topics.
 - I want to be able to suggest what new topic Medical History can add to the website.
+
+---
+
+## Design
+
+---
+
+### Colour scheme
+
+Medical History colour palette
+
+- The website uses backgound color #212549 and for the text #fffeff this are use in header(navbar), in the main body for headings, in the footer and in the sign up form.
+- In the sign up form with laptop screen of larger, the mouse hover used #90ee90 to the form input fields to suggest what user is about to click.
+- For normal text the default color of the browser is used.
+- The colour scheme is consistent throughtout the whole website.
+
+### Typography
+
+---
+Google Fonts was used to import the fonts used for this site.
+
+- The Merriweather font is used for the whole body section of the website with serif as a backup font.
+- The other parts of the project used the default browser fonts.
+
+### Imagery  
+
+---
+All of the images used on this site is from the the external websites which will be credited in the credit section.
+
+
+### Wireframes
+
+---
+Wire frames were created for Mobile, tablet and desktop using Balsamiq.
+
+
