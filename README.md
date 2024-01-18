@@ -5,3 +5,42 @@ Medical History website is for students aged 10 to 16 who wants to learn about t
 ![Screenshot of all the pages and responsiveness of the project](/docs/All-page-responsiveness.png)
 Visit the deployed site here : Medical History
 
+## User Experience - UX
+
+### Initial Discussion
+
+#### Key information for the site
+
+- An introduction to Medical History.
+- Details about vaccination history.
+- Images of early vaccination phases.
+- Shows more similar topics like vaccination.
+- How to get notify for more updates.
+- A way to contact Medical History.
+
+### User Stories
+
+#### Client Goals
+
+- To be able to view the website on a variety of device sizes.
+- To provide an clear overview of the history facts.
+- To be able find images related to the topic. 
+- To allow people to contact Medical History to ask questions, to request further information about the topic and can share more ideas of what topic they want to see.
+- To be able to find multiple topics they want to learn about.
+
+#### First Time Visitor Goals
+
+- I want to find out about what Medical History provide and want image to back it up.
+- I want to navigate the website easily and view the information.
+- I want to see images of what information is written about.
+- I want to be able to contact Medical History.
+- I want to find their Social media links.
+
+#### Returning Visitor Goals
+
+- I want to be able to get notify when new topics are updated to the website.
+
+#### Frequent Visitor Goals
+
+- I want to see and learn about more topics.
+- I want to be able to suggest what new topic Medical History can add to the website.
