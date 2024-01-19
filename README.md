@@ -32,7 +32,7 @@ Visit the deployed site here :[Medical History](https://dhruvesh48.github.io/Pro
 
 - To be able to view the website on a variety of device sizes.
 - To provide an clear overview of the history facts.
-- To be able find images related to the topic. 
+- To be able find images related to the topic.
 - To allow people to contact Medical History to ask questions, to request further information about the topic and can share more ideas of what topic they want to see.
 - To be able to find multiple topics they want to learn about.
 
@@ -263,6 +263,7 @@ Care has been taken throughout the coding to ensure that this website is as acce
 HTML and CSS are the languages used on this website.
 
 #### Frameworks, Libraries & Programs Used
+
 - [Favicon.io](https://favicon.io/) - To create and download the favicon logo.
 - [Google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.html) - To create proper pages with rules.
 - [ui.sev](https://ui.dev/amiresponsive) - To create views of the website on different viewing devices.
