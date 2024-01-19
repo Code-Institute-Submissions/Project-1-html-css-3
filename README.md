@@ -149,3 +149,16 @@ sign up page image here..................
 - The css section will be in alphabetically order for easier accessibility.
 - New action form will be created letting user know they are signed in.
 
+## Accessibility
+
+---
+Care has been taken throughout the coding to ensure that this website is as accessible friendly as possible. Particular attention has been given to the following points:
+
+- Using semantic HTML.
+- Ensuring sufficient contrast between the text and its respective background.
+- Using a box shadown color for the buttons and the text input fields.
+- Using large checkboxes in the sign up form.
+- The use of accurate alt descriptions for the images used in the website.
+- Used hover border-bottom line below the navbar, easier for users to navigate. 
+
+
