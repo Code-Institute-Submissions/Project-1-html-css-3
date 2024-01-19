@@ -1,7 +1,6 @@
 /*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=Merriweather:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:wght@400;500;800&display=swap');
 
-
 /*To override default styles*/
 *{
     box-sizing: border-box;
@@ -80,7 +79,6 @@ nav{
     font-size: 150%;
 }
 
-
 /*Main*/
 main{
     display: flex;
@@ -149,7 +147,7 @@ main{
     overflow: scroll;
     padding: 10px 20px;
     white-space: nowrap;
-    text-overflow: clip clip;
+    text-overflow: clip;
 }
 
 /*Sign-up section*/
