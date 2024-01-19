@@ -4,35 +4,35 @@
 
 /*To override default styles*/
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /*General styles*/
 body{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: "Merriweather", serif;
+    min-height: 100vh;
 }
 
 /*Header*/
 header{
+    align-items: baseline;
     background-color: #212549;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
     box-shadow: 0 2px 2px #212549;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 header a{
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
 
 #logo{
@@ -41,8 +41,8 @@ header a{
 }
 
 #navbar{
-    letter-spacing: 1px;
     font-size: 110%;
+    letter-spacing: 1px;
     list-style-type: none;
 }
 
@@ -56,14 +56,14 @@ header a{
 
 /*Navbar style*/
 nav{
-    position: absolute;
     background-color: #fffeff;
-    width: 100%;
     box-shadow: 0 2px 2px #212549;
-    padding: 0 1rem;
-    left: 0;
     display: none;
+    position: absolute;
+    left: 0;
+    padding: 0 1rem;
     top: 100%;
+    width: 100%;
 }
 
 /*Nav toggle*/
@@ -76,36 +76,36 @@ nav{
 }
 
 .nav-toggle-label i{
-    font-size: 150%;
     color: #fffeff;
+    font-size: 150%;
 }
 
 
 /*Main*/
 main{
-    flex: 1 0 auto;
-    margin-top: 40px;
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 #start-section{
-    height: 600px;
-    width: 100%;
     background: url("../images/first-vaccination.webp") no-repeat center center/cover;
+    height: 600px;
     position: relative;
+    width: 100%;
 }
 
 #start-section-text{
     background-color: rgb(33, 37, 73);
+    bottom: 50px;
     color: #fffeff;
-    height: 100px;
-    width: 80%;
     font-size: 100%;
+    height: 100px;
+    padding-left: 10%;
     position: absolute;
     right: 0;
-    bottom: 50px;
-    padding-left: 10%;
+    width: 80%;
 }
 
 #main-section div{
@@ -116,17 +116,15 @@ main{
 #main-section div h2{
     background-color: #212549;
     color: #fffeff;
-    text-align: center;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #main-section div p{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
     letter-spacing: 1px;
+    margin: 0 20px 20px 20px;
 }
 
 #main-section div img{
@@ -134,18 +132,18 @@ main{
 }
 
 /*More-topics section*/
-#style-section div{
+#more-topic-section div{
     background-color: #212549;
-    margin: 10px 20px;
     color: #fffeff;
+    margin: 10px 20px;
 }
 
-#style-section div img{
-    width: 100%;
+#more-topic-section div img{
     height: 200px;
+    width: 100%;
 }
 
-#style-section div h4{
+#more-topic-section div h4{
     background-color: #212549;
     color: #fffeff;
     padding: 10px 20px;
@@ -154,8 +152,8 @@ main{
 /*Sign-up section*/
 #signup-form{
     background-color: #212549;
-    margin: 20px 20px 0 20px;
     color: #fffeff;
+    margin: 20px 20px 0 20px;
     padding: 30px;
 }
 
@@ -164,16 +162,15 @@ main{
 }
 
 .text-input{
-    padding: 3px 5px;
     border-radius: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0;
+    padding: 3px 5px;
 }
 
 #sign-in{
+    border-radius: 10px;
     margin-top: 20px;
     padding: 15px 32px;
-    border-radius: 10px;
     text-decoration: none;
 }
 
@@ -194,24 +191,24 @@ footer p {
 
 /*Social networks link*/
 #socials{
-    text-align: center;
-    padding: 20px 0;
+    background-color: #212549;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #212549;
+    padding: 20px 0;
+    text-align: center;
 }
 
 #socials i{
+    color: #fffeff;
     font-size: 150%;
     padding: 5%;
-    color: #fffeff;
 }
 
 /*Media query: landscape phones(576px and up)*/
 @media screen and (min-width: 576px) {
     /*More-topics section*/
-    #style-section{
+    #more-topic-section{
         column-count: 2;
         column-gap: 0;
     }
@@ -244,24 +241,22 @@ footer p {
     }
 
     #start-section-text{
-        width: 100%;
-        padding-top: 30px;
-        padding-right: 10%;
         font-size: 130%;
+        padding: 30px 10% 0 10%;
+        width: 100%;
     }
 
     #main-section div img{
-        margin-left: 50px;
-        margin-right: 50px;
-        width: 80%;
         height: 400px;
+        margin: 0 50px;
+        width: 80%;
     }
 
     /*sign-up section*/
     #signup-form {
+        left: 20%;
         max-width: 400px;
         position: absolute;
-        left: 20%;
         top: 125px;
     }
 
@@ -271,13 +266,13 @@ footer p {
 @media screen and (min-width: 992px) {
     /*header*/
     nav{
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
         background-color: #212549;
+        box-shadow: none;
         color: #fffeff;
+        display: block;
+        padding-right: 1rem;
+        position: relative;
+        width: fit-content;
     }
 
     .active {
@@ -298,19 +293,17 @@ footer p {
     }
 
     #main-section div p{
-        margin-left: 250px;
-        margin-right: 250px;
+        margin: 0 250px;
     }
 
     #main-section div img{
         height: 500px;
+        margin: 0 auto;
         width: 70%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     /*More-topics section*/
-    #style-section {
+    #more-topic-section {
         column-count: 3;
         column-gap: 0;
     }
@@ -318,17 +311,17 @@ footer p {
     /*Sign-up section*/
     #signup-section {
         background-image: url("../images/signup-image.webp");
-        background-size: cover;
         background-position: center;
-        padding: 20px 10% 0 10%;
+        background-size: cover;
         flex-grow: 1;
+        padding: 20px 10% 0 10%;
         position: relative;
     }
 
     #signup-form {
+        left: 5%;
         max-width: 400px;
         position: absolute;
-        left: 5%;
         top: 100px;
     }
 
@@ -345,46 +338,41 @@ footer p {
 @media screen and (min-width: 1440px){
     /*Main Content*/
     #start-section-text{
-        width: 100%;
-        left: 30%;
         font-size: 150%;
+        left: 30%;
+        width: 100%;
     }
 
     #main-section div h2{
-        margin-left: 300px;
-        margin-right: 300px;
+        margin: 0 300px;
     }
+
     #main-section div p {
-        margin-left: 450px;
-        margin-right: 450px;
+        margin: 0 450px;
     }
+
     #main-section div img {
-        margin-left: 360px;
-        margin-right: 400px;
+        margin: 0 400px 0 360px;
         width: 50%;
     }
     /*More topics page*/
-    #style-section {
-        margin-left: 100px;
-        margin-right: 100px;
+    #more-topic-section {
+        margin: 0 100px;
     }
 }
 
 @media screen and (min-width: 1650px) {
     #main-section div p {
-        margin-left: 600px;
-        margin-right: 600px;
+        margin: 0 600px;
     }
+
     #main-section div img {
-        margin-left: 475px;
-        margin-right: 400px;
+        margin: 0 400px 0 475px;
         width: 50%;
     }
 
     /*More topics page*/
-    #style-section {
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 100px;
+    #more-topic-section {
+        margin: 100px 200px 0;
     }
 }
