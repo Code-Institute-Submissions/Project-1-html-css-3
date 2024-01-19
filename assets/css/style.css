@@ -345,11 +345,9 @@ footer p {
 @media screen and (min-width: 1440px){
     /*Main Content*/
     #start-section-text{
-        width: 840px;
-        margin-left: 300px;
-        margin-right: 300px;
-        padding-left: 15%;
-        font-size: 100%;
+        width: 100%;
+        left: 30%;
+        font-size: 150%;
     }
 
     #main-section div h2{
@@ -373,11 +371,6 @@ footer p {
 }
 
 @media screen and (min-width: 1650px) {
-    #start-section-text {
-        width: 1000px;
-        left: 7%;
-    }
-
     #main-section div p {
         margin-left: 600px;
         margin-right: 600px;
