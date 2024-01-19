@@ -135,7 +135,7 @@ main{
 #more-topic-section div{
     background-color: #212549;
     color: #fffeff;
-    margin: 10px 20px;
+    margin: 0 20px 10px;
 }
 
 #more-topic-section div img{
@@ -146,7 +146,10 @@ main{
 #more-topic-section div h4{
     background-color: #212549;
     color: #fffeff;
+    overflow: hidden;
     padding: 10px 20px;
+    white-space: nowrap;
+    text-overflow: clip;
 }
 
 /*Sign-up section*/
@@ -211,6 +214,7 @@ footer p {
     #more-topic-section{
         column-count: 2;
         column-gap: 0;
+        padding: 20px 100px;
     }
 
     /*sign-up section*/
