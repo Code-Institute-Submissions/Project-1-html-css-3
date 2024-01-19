@@ -146,10 +146,10 @@ main{
 #more-topic-section div h4{
     background-color: #212549;
     color: #fffeff;
-    overflow: hidden;
+    overflow: scroll;
     padding: 10px 20px;
     white-space: nowrap;
-    text-overflow: clip;
+    text-overflow: clip clip;
 }
 
 /*Sign-up section*/
@@ -257,11 +257,20 @@ footer p {
     }
 
     /*sign-up section*/
+    #signup-section {
+        background-image: url("../images/signup-image.webp");
+        background-position: center;
+        background-size: cover;
+        flex-grow: 1;
+        padding: 20px 10% 0 10%;
+        position: relative;
+    }
+
     #signup-form {
-        left: 20%;
+        left: 5%;
         max-width: 400px;
         position: absolute;
-        top: 125px;
+        top: 100px;
     }
 
 }
@@ -313,22 +322,6 @@ footer p {
     }
 
     /*Sign-up section*/
-    #signup-section {
-        background-image: url("../images/signup-image.webp");
-        background-position: center;
-        background-size: cover;
-        flex-grow: 1;
-        padding: 20px 10% 0 10%;
-        position: relative;
-    }
-
-    #signup-form {
-        left: 5%;
-        max-width: 400px;
-        position: absolute;
-        top: 100px;
-    }
-
     .text-input:hover {
         box-shadow: 0 5px 5px 0 rgba(144, 238, 144, 0.24);
     }
