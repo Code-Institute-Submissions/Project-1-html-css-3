@@ -2,7 +2,7 @@
 
 Medical History website is for students aged 10 to 16 who wants to learn about the history of medicine. Its main purpose is to inform students about crucial events that occured in the past which shape the medical world as it is today. Moreover, students will be able to find more topics with their history and images for visual reprensentation and students can also sign up for the form.
 
-![Screenshot of all the pages and responsiveness of the project](/docs/All-page-responsiveness.png)
+![Screenshot of all the pages and responsiveness of the project](/docs/home-page-responsive-image.png)
 Visit the deployed site here : Medical History
 
 ---
@@ -148,6 +148,53 @@ sign up page image here..................
 - Their will be links of other website for the user who wants to know more details about the specific topic.
 - The css section will be in alphabetically order for easier accessibility.
 - New action form will be created letting user know they are signed in.
+
+---
+
+## Medical History - TESTING DOCUMENTATION
+
+---
+
+## AUTOMATED TESTING
+  
+### W3C Validator
+
+[W3C](https://validator.w3.org/) was used to validate all HTML pages, as well as the [CSS](https://jigsaw.w3.org/css-validator/#validate_by_uri).
+  
+- [Home page W3C HTML Validation](docs/home-page-HTML-validator.png) - Pass
+- [More-topic page W3C HTML Validation](docs/more-topic-HTML-validator.png) - Pass
+- [sign up page W3C HTML Validation](docs/signup-HTML-validator.png) - Pass
+- [style.css CSS Validation](docs/CSS-validator.png) - Pass
+
+---
+
+### Lighthouse
+
+Lighthouse from the Chrome Developer tools was used to test the performance, accessibility, best practices and SEO of each page on the website.
+
+### Desktop Results
+
+- Home page
+
+  ![Home Page Lighthouse testing desktop](docs/home-page-desktop-lighthouse.png)
+- More-topic page
+
+  ![more-topic page Lighthouse testing desktop](docs/more-topic-desktop-lighthouse.png)
+- Sign up page
+
+  ![sign up page Lighthouse testing desktop](docs/signup-desktop-lighthouse.png)
+
+### Mobile Results
+
+- Home page
+
+  ![Home Page Lighthouse testing desktop](docs/home-page-mobile-lighthouse.png)
+- More-topic page
+
+  ![more-topic page Lighthouse testing desktop](docs/more-topic-mobile-lighthouse.png)
+- Sign up page
+
+  ![sign up page Lighthouse testing desktop](docs/signup-mobile-lighthouse.png)
 
 ## Accessibility
 
