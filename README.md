@@ -180,4 +180,19 @@ HTML and CSS are the languages used on this website.
 - [W3C schools](https://www.w3schools.com/) - for resolving code format in CSS and HTML.
 - [Huemint](https://huemint.com/brand-intersection/) - for choosing the color palettes
 
+## Deployment
+
+---
+ This site was deployed using the following steps:
+
+1. Open GitHub.
+2. Select the project to be deployed.
+3. Go to 'Settings'.
+4. In the **Code and Automation** section, select **Pages**.
+5. Set **Source** to 'Deploy from a branch'.
+6. Select **Main Branch**.
+7. Set **Folder** to 'Root'.
+8. Under **Branch** click 'Save'
+9. The link to the live website is now displayed at the top of the page.
+
 
