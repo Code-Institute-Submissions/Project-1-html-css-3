@@ -188,11 +188,35 @@ HTML and CSS are the languages used on this website.
 1. Open GitHub.
 2. Select the project to be deployed.
 3. Go to 'Settings'.
-4. In the **Code and Automation** section, select **Pages**.
-5. Set **Source** to 'Deploy from a branch'.
-6. Select **Main Branch**.
-7. Set **Folder** to 'Root'.
-8. Under **Branch** click 'Save'
+4. In the Code and Automation section, select Pages.
+5. Set Source to 'Deploy from a branch'.
+6. Select Main Branch.
+7. Set Folder to 'Root'.
+8. Under Branch click 'Save'
 9. The link to the live website is now displayed at the top of the page.
 
+### Local development
 
+---
+
+#### How to Fork
+
+1. Log in to Github.
+2. Go to the repository for this project.
+3. At the top right of the page, click the "Fork" button. This will create a copy of the repository under your Github account.
+
+#### How to clone
+
+1. Log in to Github.
+2. Go to the repository for this project.
+3. Click on the "Code" button, select from HTTPS, SSH or Github CLI.
+4. Copy the URL for the repository.
+5. Open your terminal or command prompt.
+6. Navigate to the directory where you want to clone your repository.
+7. Use the `git clone` command followed by the URL that you have copied.
+
+## Testing
+
+Please refer to the [TESTING.md](TESTING.md) file for details on all testing carried out.
+
+---
