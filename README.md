@@ -77,7 +77,7 @@ Google Fonts was used to import the fonts used for this site.
 ### Imagery  
 
 ---
-All of the images used on this site is from the the external websites which will be credited in the credit section.
+All of the images used on this site is from the the external websites which will be credited in the credit[#credits] section.
 
 
 ### Wireframes
@@ -85,4 +85,67 @@ All of the images used on this site is from the the external websites which will
 ---
 Wire frames were created for Mobile, tablet and desktop using Balsamiq.
 
+## Features
+
+---
+
+### General Features on each page
+
+---
+All the pages on the website have :
+
+- A favicon which is the centre part of the Medical History.
+- A navbar which allows the users to easily navigate through the site. On mobile devices and on tablet device the navbar is collapsed into a burger icon with a dropdown navbar.
+- A footer which contains links to the social media accounts.
+
+#### Home(index) Page
+
+---
+The Home Page is divided into seven sections:
+
+- The Hero image
+- What is vaccination?
+- Variolation
+- First Vaccination
+- First rabies vaccine
+- Development of Vaccines
+- Elimination Efforts
+
+The Home page provides information about the history of vaccination how it was back in 1400's to now in 2oth century with images.
+
+Home page image here.................
+
+#### More Topic page
+
+---
+
+- The more topic page provides information about upcoming topics that would be updated later.
+- It features images with the heading showing what it will be.
+
+More topic page here..................
+
+#### sign up page
+
+---
+The sign up page contains form in which user will be requested to put their details before submitting the form.
+
+The Sign up form has the following features:
+
+- Clearly labelled text inputs with placeholder text.
+- On larger screens, the text input has a box shadow means it will have shadow of green color when hovered over.
+- There are three separate requests with each need to be filled.
+- To increase accessibility, the checkboxes have been made large, and change colour when hovered over.
+- There is a submit button which has green shadow when hovered over. When clicked, the submit button leads the user to code institute action page.
+
+sign up page image here..................
+
+#### Future Features
+
+---
+
+- Seprate HTML page will be created for the home page insted of vacination history.
+- The vaccination page will be in more topic section and each section will be clickable link that will lead user to that page.
+- Their will be links of other website for the user who wants to know more details about the specific topic.
+- The css section will be in alphabetically order for easier accessibility.
+- New action form will be created letting user know they are signed in.
 
