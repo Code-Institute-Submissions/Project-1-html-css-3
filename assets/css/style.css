@@ -341,15 +341,15 @@ footer p {
     }
 
     #main-section div h2{
-        margin: 0 300px;
+        margin: 0 20%;
     }
 
     #main-section div p {
-        margin: 0 450px;
+        margin: 0 20%;
     }
 
     #main-section div img {
-        margin: 0 400px 0 360px;
+        margin: 0 25%;
         width: 50%;
     }
     /*More topics page*/
@@ -359,15 +359,6 @@ footer p {
 }
 
 @media screen and (min-width: 1650px) {
-    #main-section div p {
-        margin: 0 600px;
-    }
-
-    #main-section div img {
-        margin: 0 400px 0 475px;
-        width: 50%;
-    }
-
     /*More topics page*/
     #more-topic-section {
         margin: 100px 200px 0;
