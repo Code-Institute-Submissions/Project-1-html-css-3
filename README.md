@@ -161,4 +161,23 @@ Care has been taken throughout the coding to ensure that this website is as acce
 - The use of accurate alt descriptions for the images used in the website.
 - Used hover border-bottom line below the navbar, easier for users to navigate. 
 
+## Technologies used
+
+#### Language used
+
+HTML and CSS are the languages used on this website.
+
+#### Frameworks, Libraries & Programs Used
+- [Favicon.io](https://favicon.io/) - To create and download the favicon logo.
+- [Google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.html) - To create proper pages with rules.
+- To create views of the website on different viewing devices.
+- [Google Fonts](https://fonts.google.com/) - for importing the font families used.
+- [Font awesome](https://fontawesome.com/) - for the social media and navbar burger icons.
+- [W3C HTML validator](https://validator.w3.org/) - To validate all the HTML file.
+- [W3C CSS validator](https://jigsaw.w3.org/css-validator/) - To validate CSS file.
+- [Google Dev tools](https://developer.chrome.com/docs/) - to troubleshoot and test issues during the development.
+- [MDN webdocs](https://developer.mozilla.org/en-US/) - reference
+- [W3C schools](https://www.w3schools.com/) - for resolving code format in CSS and HTML.
+- [Huemint](https://huemint.com/brand-intersection/) - for choosing the color palettes
+
 
