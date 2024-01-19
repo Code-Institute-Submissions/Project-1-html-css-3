@@ -266,7 +266,7 @@ HTML and CSS are the languages used on this website.
 
 - [Favicon.io](https://favicon.io/) - To create and download the favicon logo.
 - [Google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.html) - To create proper pages with rules.
-- [ui.sev](https://ui.dev/amiresponsive) - To create views of the website on different viewing devices.
+- [ui.dev](https://ui.dev/amiresponsive) - To create views of the website on different viewing devices.
 - [Google Fonts](https://fonts.google.com/) - for importing the font families used.
 - [Font awesome](https://fontawesome.com/) - for the social media and navbar burger icons.
 - [W3C HTML validator](https://validator.w3.org/) - To validate all the HTML file.
